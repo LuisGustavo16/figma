@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #D17070;
+    --secondery: #521B1B;
+    --third: #F4CB9B;
+    --black: black;
+    --forth: #F2EAFF;
+}
+
+header{
+    background-color: var(--secondery);
+    border-bottom: 0.7rem solid var(--black);
+    display: flex;
+    height: 9.5rem;
+    align-items: center;
+}
+
+header picture{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    width: 20%;
+    height: 95%;
+}
+
+header picture img{
+    margin-top: 0.4rem;
+    height: 90%;
+}
+
+header h1{
+    font-family: 'Nosifer', cursive;
+    font-weight: 400;
+    color: var(--primary);
+    text-align: center;
+    width: 40%;
+    text-shadow: 0.5rem 0.3rem 0rem black;
+    font-size: 70px;
+}
+
+
+main{
+    padding: 9rem 4rem;
+}
+
+main{
+    background-color: var(--third);
+}
+
+
+main ul{
+    width: 40rem;
+}
+
+main ul li{
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 3rem ;
+    background-color: var(--forth);
+    width: 40rem;
+    border-radius: 3rem;
+    padding: 1.6rem;
+}
+
+main img.beterraba{
+    padding: 10rem 10rem;
+    float: right;
+}
