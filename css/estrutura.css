@@ -9,6 +9,7 @@
 :root{
     --primary: #D17070;
     --secondery: #521B1B;
+    --secondery-light:#8D5858;
     --third: #F4CB9B;
     --black: black;
     --forth: #F2EAFF;
@@ -70,6 +71,26 @@ main ul li{
 }
 
 main img.beterraba{
-    padding: 10rem 10rem;
     float: right;
+}
+
+footer{
+    padding: 8px 17px;
+    background-color: var(--secondery-light);
+    height: 5rem;
+}
+
+footer img.insta{
+    width: 53px;
+    height: 55px;
+}
+
+footer img.zap{
+    width: 97px;
+    height: 58px;
+}
+
+
+main h2{
+    font-family: 'Noto Rashi Hebrew', serif;
 }
