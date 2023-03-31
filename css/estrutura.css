@@ -56,7 +56,22 @@ main ul{
     align-items: center;
 }
 
-main ul li{
+main ul a li{
+    text-decoration: none;
+    color: black;
+}
+
+main ul a{
+    text-decoration: none;
+    color: black;
+}
+
+main ul li.index:hover{
+    background-color: #d0b9f5;
+    box-shadow: 0.3rem 0.2rem 0.5rem black;
+}
+
+main ul li.index{
     text-align: center;
     list-style-type: none;
     font-family: 'Odor Mean Chey', serif;
@@ -65,6 +80,7 @@ main ul li{
     width: 30rem;
     border-radius: 3rem;
     padding: 1.8rem;
+    margin-bottom: 2rem;
 }
 
 main img.beterraba{
@@ -91,7 +107,37 @@ footer img.zap{
     height: 58px;
 }
 
-
-main h2{
-    font-family: 'Noto Rashi Hebrew', serif;
+main ul.receitas{
+    align-items: center;
 }
+
+main ul li.page1{
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 2rem ;
+    background-color: var(--forth);
+    width: 25rem;
+    border-radius: 3rem;
+    display: block;
+}
+
+main ul li.ponto{
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.6rem ;
+    background-color: var(--forth);
+    width: 25rem;
+    border-radius: 10rem;
+}
+
+main ul li.quadrado{
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Noto Rashi Hebrew', serif;
+    font-size: 2rem ;
+    background-color: var(--forth);
+    width: 30rem;
+    height: rem;
+}
+
