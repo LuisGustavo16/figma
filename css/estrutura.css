@@ -138,6 +138,19 @@ main ul li.quadrado{
     font-size: 2rem ;
     background-color: var(--forth);
     width: 30rem;
-    height: rem;
+    height: 2.5rem;
 }
 
+main ul li.page1:hover{
+    background-color: #d0b9f5;
+    box-shadow: 0.3rem 0.3rem 0.3rem;
+}
+
+main ul li.ponto:hover{
+    background-color: #985ff3;
+    box-shadow: 0.3rem 0.3rem 0.3rem;
+}
+
+main img.receitas{
+    padding: 2rem 2rem;
+}
