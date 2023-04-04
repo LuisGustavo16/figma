@@ -52,7 +52,7 @@ main{
 }
 
 main ul{
-    width: 40rem;
+    width: 30rem;
     align-items: center;
 }
 
@@ -83,12 +83,13 @@ main ul li.index{
     margin-bottom: 2rem;
 }
 
+
 main img.beterraba{
     float: right;
 }
 
 main img.cenoura{
-    float:right
+    float:right;
 }
 
 footer{
@@ -153,4 +154,9 @@ main ul li.ponto:hover{
 
 main img.receitas{
     padding: 2rem 2rem;
+    width: 50rem;
+    height: 40rem;
+    background-color:var(--third);
+    border-radius: 13rem;
+    box-shadow: 1rem 1rem 0rem black;
 }

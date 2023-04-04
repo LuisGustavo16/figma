@@ -1,0 +1,69 @@
+@media (max-width: 1300px){
+    header{
+        height: 7rem;
+    }
+    header > h1{
+        font-size: 50px;
+    }
+    main > ul li.index{
+        font-size: 1.5rem;
+        width: 30rem;
+    }
+    main > img.beterraba{
+        display: none;
+    }
+
+    main > img.cenoura{
+        width: 25rem;
+        height: 25rem;
+    }
+    footer{
+        height: 4rem;
+    }
+    footer > a img.insta{
+        width: 43px;
+        height: 45px;
+    }
+    footer > a img.zap{
+        width: 77px;
+        height: 48px;
+    }
+    main{
+        height: calc(100vh - 12rem);
+    }
+}
+
+@media (max-width: 1000px){
+    header{
+        height: 5rem;
+    }
+    header > h1{
+        font-size: 50px;
+    }
+    main > ul li.index{
+        font-size: 1.5rem;
+        width: 30rem;
+    }
+    main > img.beterraba{
+        display: none;
+    }
+
+    main > img.cenoura{
+        width: 25rem;
+        height: 25rem;
+    }
+    footer{
+        height: 3.5rem;
+    }
+    footer > a img.insta{
+        width: 33px;
+        height: 35px;
+    }
+    footer > a img.zap{
+        width: 67px;
+        height: 38px;
+    }
+    main{
+        height: calc(100vh - 8.5rem);
+    }
+}
