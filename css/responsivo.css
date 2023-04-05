@@ -1,6 +1,16 @@
-@media (max-width: 1300px){
+@media (max-width: 1440px){
+    main > img.cenoura{
+        display: none;
+    }
+    main > ul li.index{
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 1000px){
     header{
-        height: 7rem;
+        height: 6rem;
     }
     header > h1{
         font-size: 50px;
@@ -9,16 +19,16 @@
         font-size: 1.5rem;
         width: 30rem;
     }
-    main > img.beterraba{
+    main > img.cenoura{
         display: none;
     }
 
-    main > img.cenoura{
+    main > img.beterraba{
         width: 25rem;
         height: 25rem;
     }
     footer{
-        height: 4rem;
+        height: 4.5rem;
     }
     footer > a img.insta{
         width: 43px;
@@ -29,41 +39,34 @@
         height: 48px;
     }
     main{
-        height: calc(100vh - 12rem);
+        height: calc(100vh - 10.5rem);
     }
 }
 
-@media (max-width: 1000px){
-    header{
-        height: 5rem;
-    }
-    header > h1{
-        font-size: 50px;
-    }
-    main > ul li.index{
-        font-size: 1.5rem;
-        width: 30rem;
-    }
-    main > img.beterraba{
+@media (max-width: 880px){
+    main > img{
         display: none;
     }
+}
 
-    main > img.cenoura{
-        width: 25rem;
-        height: 25rem;
+@media (max-width: 690px){
+    header > h1{
+        font-size: 40px;
     }
-    footer{
-        height: 3.5rem;
-    }
-    footer > a img.insta{
-        width: 33px;
-        height: 35px;
-    }
-    footer > a img.zap{
-        width: 67px;
-        height: 38px;
-    }
-    main{
-        height: calc(100vh - 8.5rem);
+    main > ul{
+        padding: 4.5rem 4.5rem;
     }
 }
+
+@media (max-width: 555px){
+    header > picture img{
+        display: none;
+    }
+    header > picture{
+        width: 3.5rem;
+    }
+    main > ul{
+        padding: 2.5rem 2.5rem;
+    }
+}
+
