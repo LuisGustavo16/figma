@@ -142,7 +142,6 @@ main ul li.quadrado{
     font-family: 'Noto Rashi Hebrew', serif;
     font-size: 2rem ;
     background-color: var(--forth);
-    width: 30rem;
     height: 2.5rem;
 }
 
