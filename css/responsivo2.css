@@ -2,8 +2,7 @@
     main > img{
         display: none;
     }
-
-    }
+}
 
 @media (max-width: 965px){
     header > h1{
