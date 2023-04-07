@@ -1,0 +1,99 @@
+:root {
+    --primary: #D17070;
+    --secondery: #521B1B;
+    --secondery-light: #8D5858;
+    --third: #F4CB9B;
+    --black: black;
+    --forth: #F2EAFF;
+    --hover: #d0b9f5;
+}
+
+header nav{
+    position: fixed;
+    right: 0rem;
+    width: 10rem;
+}
+
+header nav div{
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    right: 20px;
+}
+
+header nav div span{
+    display: block;
+    z-index: 999;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: var(--forth);
+    border-radius: 3px;
+    transition: all ease .2s;
+}
+
+.hamburguer{
+    position: fixed;
+    z-index: 1000;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    opacity: 0;
+    right: 20px;
+}
+
+.hamburguer:checked{
+    right: 11rem;
+}
+.hamburguer:checked ~ div{
+    right: 11rem;
+}
+
+.hamburguer:checked ~ div span{
+    background-color: var(--forth);
+}
+
+.hamburguer:checked ~ div span:nth-child(1){
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(1.25);
+}
+
+.hamburguer:checked ~ div span:nth-child(2){
+    opacity: 0;
+}
+
+.hamburguer:checked ~ div span:nth-child(3){
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(1.25);
+}
+
+header nav ul{
+    position: absolute;
+    z-index: 998;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background-color: var(--forth);
+    margin-left: 300px;
+    transition: all ease .2s;
+}
+
+.hamburguer:checked ~ ul{
+    margin-left: 0;
+}
+
+header nav ul a li{
+    list-style-type: none;
+    font-family: 'Odor Mean Chey', serif;
+    padding: 15px 0;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul a li:hover{
+    color: rgb(106, 101, 101);
+}
